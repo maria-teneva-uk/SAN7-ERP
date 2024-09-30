@@ -44,3 +44,32 @@ Each notebook begins with a summary of the steps and codebooks are named and mar
 Due to memory efficiency issues with JupyterLab, the crime dataset had to be filtered and cleaned in R (STEP-1-CRIME-DATA-FILTERING). However, all subsequent analysis is in Python.
 
 The code was executed on a Windows 11 device.
+
+Required R Packages
+
+To reproduce this project, you will need the following R packages installed:
+
+    tidyverse (for data manipulation and visualization)
+    dplyr (for data wrangling)
+    readr (for reading rectangular data)
+    arrow (for working with columnar data formats, including Apache Arrow)
+    lubridate (for working with date-time data)
+
+
+Required Python Packages
+
+To reproduce this project, you will need the following Python packages installed:
+
+    pandas (for data manipulation)
+    geopandas (for working with geospatial data)
+    numpy (for numerical operations)
+    census (for accessing census data)
+    us (for working with U.S. state and territory metadata)
+    pkg_resources (for resource management)
+    matplotlib (for plotting)
+    seaborn (for advanced data visualization)
+    scikit-learn (for machine learning)
+    imbalanced-learn (for handling imbalanced datasets)
+    xgboost (for gradient boosting)
+    shap (for explainability in machine learning)
+    joblib (for saving/loading models)
