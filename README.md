@@ -32,7 +32,9 @@ City of Chicago Spatial Files
    Universe:   Population for whom poverty status is determined
    Source code: C17002
    NHGIS code:  RNB
-
+   
+## Data Integration Process Chart
+![Flowchart](data_integration_chart.png)
 
 ## Reproducibility and Notes
 If rerunning the code, ensure all package versions are aligned with the ones shown in this repository. 
